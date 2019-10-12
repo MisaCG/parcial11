@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://cdn.glitch.com/6aa250c1-96b1-4097-9385-840f7f676bdc%2Fbackground.png?v=1570826522775);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-image: url(https://cdn.glitch.com/6aa250c1-96b1-4097-9385-840f7f676bdc%2F15-Presentation-Background-Examples37.png?v=1570826666633);
+    font-weight: 400;
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2;
+    margin: 20px;
+}
+.logo h4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.links a{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+}
+
+.label {
+  margin: 10px;
+}
+
+.links li{
+    list-style: none;
+}
+
+.contenedor{
+    background: white;
+    width: 100%;
+    max-width: 1230px;
+    margin: 48px auto;
+    margin-top: -15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 700px;
+    height: 100px;
+}
+
+.contenedor h1{
+    color: black;
+    padding-left: 2%;
+    margin-top: 2%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+.contenedor hr{
+    border: 2px solid black;
+}
+
+.contenedor p{
+    color: black;
+    padding-left: 2%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+
+.label.label-success{
+    background-color: black;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.contenedor img{
+    float: left;
+    width: 31.5%;
+    padding: 5px;
+    margin-left: 1.5%;
+}
+
+.cont {  
+border: 3px solid #333333;
+}
+
+#footerinicio{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    padding-top: 0px;
+    text-align: center;
+    color: #fbfbf9;
+    margin-bottom: 50px;
+    background-color: #212121
+}
+
+/*Nosotros*/
+
+#imagenus{
+    text-align: center;
+}
+#imagenus>img{
+    max-width: 100%;
+    max-height: 730px;
+    display:inline-block;
+padding: 1%;
+}
+
+.contenedorus{
+    background: white;
+    width: 100%;
+    max-width: 1230px;
+    margin: 48px auto;
+    margin-top:0px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 190px;
+    height: 100px;
+    border: 6px solid black;
+    border-radius: 10px;
+    position: center;
+
+}
+
+.contenedorus h1{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+
+.contenedorus p{
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#footerus{
+    position: static;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    color: #fbfbf9;
+    margin-bottom: 40px;
+    background-color: #212121
+}
+
+/*Servicios*/
+
+#imagenservices>img{
+    padding-left: 45%;
+    position: static;
+}
+
+#footerservices{
+    position: static;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    color: #fbfbf9;
+    margin-bottom: 40px;
+    background-color: #212121
+}
+
+
+.contenedorservices{
+    background: white;
+    width: 100%;
+    max-width: 1230px;
+    margin: 48px auto;
+    margin-top:15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 190px;
+    height: 100px;
+    border: 6px solid black;
+    border-radius: 10px;
+    position: center;
+}
+
+.contenedorservices h1{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+
+.contenedorservices ul{
+    color: blue;
+    padding-top: 0.5%;
+    padding-left: 3%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+
+#Listt{
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+}
+
+
+/*Contactos*/
+
+.contenedorcontactos{
+    background: white;
+    width: 100%;
+    max-width: 1230px;
+    margin: 48px auto;
+    margin-top:15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 230px;
+    height: 320px;
+    border: 6px solid black;
+    border-radius: 2px;
+    position: center;
+}
+
+.contenedorcontactos h1{
+    color:black;
+    text-align: center;
+    border-bottom:  2px solid black;
+}
+
+.contenedorcontactos p{
+    color: black;
+    text-align: justify;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 2%;
+}
+
+#footercontactos{
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    color: #fbfbf9;
+    margin-bottom:0px;
+    background-color: #1d1d1d
+}
+
+#footercontactos iframe{
+    margin-top: 12px;
+    height: 300px;
+  width: 1000px
+}
+
+/*Noticias*/
+
+.contenedornoticias{
+    background: white;
+    width: 100%;
+    max-width: 1230px;
+    margin: 48px auto;
+    margin-top:15px;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    border: 6px solid black;
+    border-radius: 2px;
+    position: center;
+}
+
+.contenedornoticias h1{
+    color:black;
+    text-align: center;
+    border-bottom:  2px solid black;
+}
+
+
+#footernoticias{
+    position: center;
+    width: 100%;
+    height: 330px;
+    text-align: center;
+    color: #fbfbf9;
+    margin-bottom: 40px;
+    background-color: #1d1d1d
+}
